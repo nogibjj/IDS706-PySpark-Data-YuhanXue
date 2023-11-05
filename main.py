@@ -10,7 +10,7 @@ from mylib.lib import (
 def analyze_data():
     spark = initiate_spark_session("Diabetes Data Analysis")
 
-    data_file_path = "diabetes.csv"
+    data_file_path = "./diabetes.csv"
     diabetes_data = read_dataset(spark, data_file_path)
     description_data = describe(diabetes_data)
     description_data.createOrReplaceTempView("description_view")

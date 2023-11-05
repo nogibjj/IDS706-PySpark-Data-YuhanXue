@@ -5,35 +5,16 @@
 ```markdown
 |    |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |   BMI |   DiabetesPedigreeFunction |   Age |   Outcome |
 |---:|--------------:|----------:|----------------:|----------------:|----------:|------:|---------------------------:|------:|----------:|
-|  0 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  1 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  2 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  3 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  4 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  5 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  6 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  7 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  8 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  9 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-```
-
-## Data Loading
-
-**Result Preview:**
-
-```markdown
-|    |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |   BMI |   DiabetesPedigreeFunction |   Age |   Outcome |
-|---:|--------------:|----------:|----------------:|----------------:|----------:|------:|---------------------------:|------:|----------:|
-|  0 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  1 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  2 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  3 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  4 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  5 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  6 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  7 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  8 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  9 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
+|  0 |             6 |       148 |              72 |              35 |         0 |  33.6 |                      0.627 |    50 |         1 |
+|  1 |             1 |        85 |              66 |              29 |         0 |  26.6 |                      0.351 |    31 |         0 |
+|  2 |             8 |       183 |              64 |               0 |         0 |  23.3 |                      0.672 |    32 |         1 |
+|  3 |             1 |        89 |              66 |              23 |        94 |  28.1 |                      0.167 |    21 |         0 |
+|  4 |             0 |       137 |              40 |              35 |       168 |  43.1 |                      2.288 |    33 |         1 |
+|  5 |             5 |       116 |              74 |               0 |         0 |  25.6 |                      0.201 |    30 |         0 |
+|  6 |             3 |        78 |              50 |              32 |        88 |  31   |                      0.248 |    26 |         1 |
+|  7 |            10 |       115 |               0 |               0 |         0 |  35.3 |                      0.134 |    29 |         0 |
+|  8 |             2 |       197 |              70 |              45 |       543 |  30.5 |                      0.158 |    53 |         1 |
+|  9 |             8 |       125 |              96 |               0 |         0 |   0   |                      0.232 |    54 |         1 |
 ```
 
 ## Data Description
@@ -41,103 +22,13 @@
 **Result Preview:**
 
 ```markdown
-|    | summary   |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |   BMI |   DiabetesPedigreeFunction |   Age |   Outcome |
-|---:|:----------|--------------:|----------:|----------------:|----------------:|----------:|------:|---------------------------:|------:|----------:|
-|  0 | count     |             0 |         0 |               0 |               0 |         0 |     0 |                          0 |     0 |         0 |
-|  1 | mean      |               |           |                 |                 |           |       |                            |       |           |
-|  2 | stddev    |               |           |                 |                 |           |       |                            |       |           |
-|  3 | min       |               |           |                 |                 |           |       |                            |       |           |
-|  4 | max       |               |           |                 |                 |           |       |                            |       |           |
-```
-
-## Data Loading
-
-**Result Preview:**
-
-```markdown
-|    |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |   BMI |   DiabetesPedigreeFunction |   Age |   Outcome |
-|---:|--------------:|----------:|----------------:|----------------:|----------:|------:|---------------------------:|------:|----------:|
-|  0 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  1 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  2 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  3 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  4 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  5 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  6 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  7 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  8 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  9 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-```
-
-## Data Loading
-
-**Result Preview:**
-
-```markdown
-|    |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |   BMI |   DiabetesPedigreeFunction |   Age |   Outcome |
-|---:|--------------:|----------:|----------------:|----------------:|----------:|------:|---------------------------:|------:|----------:|
-|  0 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  1 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  2 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  3 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  4 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  5 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  6 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  7 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  8 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  9 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-```
-
-## Data Loading
-
-**Result Preview:**
-
-```markdown
-|    |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |   BMI |   DiabetesPedigreeFunction |   Age |   Outcome |
-|---:|--------------:|----------:|----------------:|----------------:|----------:|------:|---------------------------:|------:|----------:|
-|  0 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  1 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  2 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  3 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  4 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  5 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  6 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  7 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  8 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  9 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-```
-
-## Data Description
-
-**Result Preview:**
-
-```markdown
-|    | summary   |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |   BMI |   DiabetesPedigreeFunction |   Age |   Outcome |
-|---:|:----------|--------------:|----------:|----------------:|----------------:|----------:|------:|---------------------------:|------:|----------:|
-|  0 | count     |             0 |         0 |               0 |               0 |         0 |     0 |                          0 |     0 |         0 |
-|  1 | mean      |               |           |                 |                 |           |       |                            |       |           |
-|  2 | stddev    |               |           |                 |                 |           |       |                            |       |           |
-|  3 | min       |               |           |                 |                 |           |       |                            |       |           |
-|  4 | max       |               |           |                 |                 |           |       |                            |       |           |
-```
-
-## Data Loading
-
-**Result Preview:**
-
-```markdown
-|    |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |   BMI |   DiabetesPedigreeFunction |   Age |   Outcome |
-|---:|--------------:|----------:|----------------:|----------------:|----------:|------:|---------------------------:|------:|----------:|
-|  0 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  1 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  2 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  3 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  4 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  5 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  6 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  7 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  8 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
-|  9 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan |
+|    | summary   |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |       BMI |   DiabetesPedigreeFunction |      Age |    Outcome |
+|---:|:----------|--------------:|----------:|----------------:|----------------:|----------:|----------:|---------------------------:|---------:|-----------:|
+|  0 | count     |     768       |  768      |        768      |        768      |  768      | 768       |                 768        | 768      | 768        |
+|  1 | mean      |       3.84505 |  120.895  |         69.1055 |         20.5365 |   79.7995 |  31.9926  |                   0.471876 |  33.2409 |   0.348958 |
+|  2 | stddev    |       3.36958 |   31.9726 |         19.3558 |         15.9522 |  115.244  |   7.88416 |                   0.331329 |  11.7602 |   0.476951 |
+|  3 | min       |       0       |    0      |          0      |          0      |    0      |   0       |                   0.078    |  21      |   0        |
+|  4 | max       |      17       |  199      |        122      |         99      |  846      |  67.1     |                   2.42     |  81      |   1        |
 ```
 
 ## Data Transformation
@@ -147,15 +38,26 @@
 ```markdown
 |    |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |   BMI |   DiabetesPedigreeFunction |   Age |   Outcome | BMICategory   |
 |---:|--------------:|----------:|----------------:|----------------:|----------:|------:|---------------------------:|------:|----------:|:--------------|
-|  0 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan | Normal        |
-|  1 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan | Normal        |
-|  2 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan | Normal        |
-|  3 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan | Normal        |
-|  4 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan | Normal        |
-|  5 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan | Normal        |
-|  6 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan | Normal        |
-|  7 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan | Normal        |
-|  8 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan | Normal        |
-|  9 |           nan |       nan |             nan |             nan |       nan |   nan |                        nan |   nan |       nan | Normal        |
+|  0 |             6 |       148 |              72 |              35 |         0 |  33.6 |                      0.627 |    50 |         1 | Obese         |
+|  1 |             1 |        85 |              66 |              29 |         0 |  26.6 |                      0.351 |    31 |         0 | Obese         |
+|  2 |             8 |       183 |              64 |               0 |         0 |  23.3 |                      0.672 |    32 |         1 | Normal        |
+|  3 |             1 |        89 |              66 |              23 |        94 |  28.1 |                      0.167 |    21 |         0 | Obese         |
+|  4 |             0 |       137 |              40 |              35 |       168 |  43.1 |                      2.288 |    33 |         1 | Obese         |
+|  5 |             5 |       116 |              74 |               0 |         0 |  25.6 |                      0.201 |    30 |         0 | Obese         |
+|  6 |             3 |        78 |              50 |              32 |        88 |  31   |                      0.248 |    26 |         1 | Obese         |
+|  7 |            10 |       115 |               0 |               0 |         0 |  35.3 |                      0.134 |    29 |         0 | Obese         |
+|  8 |             2 |       197 |              70 |              45 |       543 |  30.5 |                      0.158 |    53 |         1 | Obese         |
+|  9 |             8 |       125 |              96 |               0 |         0 |   0   |                      0.232 |    54 |         1 | Lean          |
+```
+
+## Spark SQL Query Result
+
+**Result Preview:**
+
+```markdown
+|    |   Outcome |   avg_bmi |
+|---:|----------:|----------:|
+|  0 |         1 |   35.1425 |
+|  1 |         0 |   30.3042 |
 ```
 

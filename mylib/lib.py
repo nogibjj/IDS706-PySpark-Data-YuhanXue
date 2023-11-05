@@ -35,14 +35,14 @@ def read_dataset(spark, dataset_path):
         StructField("Outcome", IntegerType(), True),  
     ])
     dataset = spark.read.option("header", 
-    "true").option("sep", ";").schema(diabetes_schema).csv(dataset_path)
+    "true").option("sep", ",").schema(diabetes_schema).csv(dataset_path)
     add_to_report("Data Loading", dataset.limit(10).toPandas().to_markdown()) 
     return dataset
 
 
 def describe(dataset):
-    description = dataset.describe().toPandas().to_markdown()
-    add_to_report("Data Description", description)
+    description = dataset.describe()
+    add_to_report("Data Description", description.toPandas().to_markdown())
     return description
 
 
